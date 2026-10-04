@@ -1,0 +1,24 @@
+{% extends 'navigation.html' %}
+{% load static %}
+{% block a %}
+<div style="color:Black;border:1px solid white;border-radius:8px;background-color:white;padding:50px">
+    <div>
+        <h3><strong>About Project</strong></h3><hr>
+        <table>
+            <td style="padding:30px">
+                <p>
+                    <strong>Project Name:</strong> Railswift – Swift and Smooth Train Reservation and Schedule Management System.<br><br>
+                    This project has been developed by <strong>Maibubsab </strong>,Im an BCA 6th semester student at Shri Sattyam degree college, Bidar, Karnataka, as a part of my major final year academic submission.<br><br>
+                    The application leverages modern web development technologies, including <strong>Python, Django, SQLite, HTML, CSS,</strong> and <strong>JavaScript</strong>, to offer a seamless platform for managing railway reservations.<br><br>
+                    Core features of the system include train ticket booking, viewing schedules, user registration and login, and a fully functional admin panel for managing routes, trains, and passenger records.<br><br>
+                    The project reflects a strong integration of frontend and backend technologies and demonstrates real-world application of database-driven web development in the transportation domain.
+                </p>
+            </td>
+            <td>
+                <img src="{% static 'images/trainabt.jpg' %}" style="height:200px;width:350px;margin-left:40px;margin-top:14px">
+            </td>
+        </table>
+        <br><br><br><br><br><br><br><br>
+    </div>
+</div>
+{% endblock %}
